@@ -49,5 +49,35 @@ footer {
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+.blue-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.blue-box {
+    text-align: center;
+    color: gray;
+    width: 150px;
+}
+
+.image {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    padding: 70px;
+    margin: 0;
+}
+
+#information {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    color: #1f2937;
 }
