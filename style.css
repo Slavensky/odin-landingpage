@@ -13,6 +13,8 @@ header {
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding-right: 50px;
+    padding-left: 30px;
 }
 
 header div {
@@ -38,6 +40,39 @@ header ul {
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    padding: 40px 20px 70px 20px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first h2 {
+    font-size: 36px;
+    color: #F9FAF8
+}
+
+.first button {
+    background-color: #3882f6;
+    border-radius: 10%;
+    border: 0;
+    border-color: #3882f6;
+    padding: 10px 20px;
+    color: #F9FAF8
+}
+
+.first .left {
+    padding: 50px;
+    width: 40%;
+    max-width: 400px;
+    padding: 0;
+    color: #F9FAF8
+}
+
+.first .right {
+    background-color: grey;
+    padding: 0;
+    text-align: center;
+    padding: 60px;
 }
 
 footer {
