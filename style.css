@@ -142,3 +142,31 @@ footer {
     position: relative;
     left: 10%;
 }
+
+.fourth {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-items: center;
+    margin: 50px;
+    color: #e5e7eb;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.fourth-left {
+    width: 40%;
+    max-width: 400px;
+    color: #F9FAF8;
+}
+
+.fourth button {
+    text-align: center;
+    padding: 10px 20px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10%;
+    border-width: 3px;
+    margin: 0;
+}
