@@ -1,3 +1,4 @@
+
 body {
     height: 100vh;
     margin: 0;
@@ -81,3 +82,19 @@ footer {
     font-weight: 900;
     color: #1f2937;
 }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    flex: 1 1 auto;
+    width: 50%;
+}
+
